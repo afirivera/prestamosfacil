@@ -1,0 +1,84 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Préstamos Fácil</title>
+  <meta name="description" content="Préstamos a personas con empleo fijo. Requisitos simples y atención rápida." />
+  <style>
+    :root{--primary:#0ea5e9;--dark:#0f172a;--muted:#475569;--bg:#f8fafc}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--dark)}
+    header{background:linear-gradient(135deg,#0284c7,#22d3ee);color:#fff}
+    .container{max-width:1100px;margin:auto;padding:24px}
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center}
+    .hero h1{font-size:40px;margin:0 0 12px}
+    .hero p{font-size:18px;margin:0 0 16px}
+    .btn{display:inline-block;background:#fff;color:#0284c7;padding:12px 18px;border-radius:10px;font-weight:bold;text-decoration:none}
+    .card{background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.08);padding:24px}
+    section{padding:40px 0}
+    h2{font-size:28px;margin:0 0 16px}
+    ul{padding-left:20px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    img{width:100%;height:220px;object-fit:cover;border-radius:14px}
+    footer{background:#020617;color:#cbd5f5}
+    footer p{margin:0;text-align:center}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container hero">
+      <div>
+        <h1>Préstamos Fácil</h1>
+        <p>Otorgamos préstamos a personas con <strong>empleo fijo</strong>, de forma rápida y confiable.</p>
+        <a class="btn" href="#requisitos">Ver requisitos</a>
+      </div>
+      <div class="card">
+        <strong>Atención rápida</strong>
+        <p>Proceso claro, requisitos sencillos y respuesta ágil.</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="servicios">
+    <div class="container">
+      <h2>¿A quiénes prestamos?</h2>
+      <div class="card">
+        <p>Realizamos préstamos a <strong>personas con empleo fijo</strong>. Nuestro objetivo es ayudarte cuando más lo necesitas, con condiciones claras.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="requisitos">
+    <div class="container">
+      <h2>Requisitos para préstamos</h2>
+      <div class="card">
+        <ul>
+          <li>Constancia de trabajo</li>
+          <li>Copia de identidad</li>
+          <li>Recibo de servicios públicos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="imagenes">
+    <div class="container">
+      <h2>Imágenes referenciales</h2>
+      <div class="grid">
+        <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?q=80&w=1200&auto=format&fit=crop" alt="Préstamos personales" />
+        <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?q=80&w=1200&auto=format&fit=crop" alt="Finanzas y dinero" />
+        <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=1200&auto=format&fit=crop" alt="Atención al cliente" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Préstamos Fácil. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
